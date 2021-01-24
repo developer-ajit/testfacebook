@@ -1,0 +1,569 @@
+
+body{
+    background: #e9eaed;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+}
+.header-bottom-mano .container-fluid,.header-section .container-fluid{
+    max-width: 1200px;
+    margin-left: 22px;
+}
+.bgcolor{
+    background: #f6f7f8;
+}
+/* main css */
+/* main css */
+.header-section{
+    background: #45619d;
+    padding: 0px;
+    /*! height: 46px; */
+}
+.header-section .navbar-brand img{
+    height: 30px;
+}
+.header-form {
+    position: relative;
+    left: -128px;
+}
+.header-form input{
+    height: 27px;
+    width: 417px;
+}
+.header-form span{
+    background: #f6f7f8;
+    display: inline-block;
+    padding: 0 20px;border-radius: 0 5px 5px 0;
+    color: #b9b5b5;position: relative;
+    left: -8px;font-size: 17px;
+    height: 25px;
+    top: 1px;
+}
+.header-mano-left {
+    position: relative;
+    left: -174px;
+}
+.header-mano-left ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.header-mano-left ul li{
+    display: inline-block;
+}
+.header-mano-left ul li a{
+    padding: 0 5px;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 0px;
+}
+.header-mano-left ul li a img{
+    height: 30px;
+}
+
+/* header bottom mano */
+.header-bottom-mano .container-fluid{
+    padding: 0;
+}
+.header-bottom-mano {
+    position: fixed;
+    width: 100%;
+    top: 44px;
+}
+.header-right-mano {
+    background: #fff;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.header-right-mano ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.header-right-mano ul li{
+    border-right: 1px solid #ddd;
+}
+.header-right-mano ul li a {
+    padding: 8px 18px;
+    color: #111;
+    transition: .4s;
+}
+/* .header-left-bottom-mano ul li a {
+    padding: 8px 18px;
+} */
+
+.header-right-bottom-mano {
+    position: relative;
+    left: 65px;
+}
+.header-right-mano ul li:last-child{
+    border-right: none;
+}
+.header-bottom-mano ul li a:hover{
+    background: #e9eaed;
+
+}
+/* facebook body part */
+.facebook-body{}
+.cover-photo-section {
+    background: #fff;
+    padding: 0;
+    margin-left: 27px;
+    margin-top: 46px;
+}
+.facebook-cover-pic {
+    background: url(https://i.ibb.co/rHPpjr8/bgcover.jpg) no-repeat center;
+        background-size: auto;
+    background-size: cover;
+    color: #fff;
+    height: 330px;
+    display: flex;
+    align-items: flex-end;
+}
+.facebook-profile {
+    position: relative;
+    left: 15%;
+    top: 17%;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 164px;
+}
+.f-profile img {
+    height: 154px;
+}
+.f-profile{
+    position: relative;
+    cursor: pointer;
+}
+.f-profile::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0,0,0,.5);
+    transition: .2s;
+
+}
+.f-profile:hover.f-profile::after{
+    height: 40%;
+}
+
+.f-profile span {
+    position: absolute;
+    left: 5px;
+    bottom: 3px;
+    z-index: 1;
+}
+.f-profile h4 {
+    position: absolute;
+    left: 16px;
+    bottom: 21px;
+    font-size: 15px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    transition: .3s;
+}
+.f-profile:hover.f-profile h4{
+    opacity: 1;
+    visibility: visible;
+
+}
+.facebook-profile-content h1 {
+    font-size: 22px;
+    font-weight: 800;
+}
+.facebook-profile-content h4 {
+    font-weight: 600;
+}
+.cover-pic-mano {}
+.cover-pic-mano ul {
+    list-style: none;
+}
+.cover-pic-mano li{
+    margin-right: 5px;
+}
+.cover-pic-mano ul li a {
+    background: #fff;
+    padding: 5px 15px;
+    color: #606060;
+    font-size: 15px;
+}
+.cover-pic-mano li a span i{}
+/* cover photo bottom mano */
+.banner-bottom-mano{
+   
+    text-align: center;
+}
+.banner-bottom-mano ul{
+    list-style: none;
+    margin: 0;
+}
+.banner-bottom-mano ul li{
+    display: inline-block;
+    border-right: 1px solid #ddd;
+}
+.banner-bottom-mano ul li a {
+    padding: 7px 15px;
+    color: #606060;
+    font-weight: 600;
+}
+.banner-bottom-mano ul li a:hover{
+    border-bottom: 1px solid #606060;
+} 
+.banner-bottom-mano ul li a.active{
+    border-bottom: 2px solid #45619d;
+}
+/* promoted pages */
+.promoted-pages-left {
+    margin-top: 5px;
+    margin-left: 27px;
+    background: #fff;
+    padding: 5px;
+}
+.promoted-pages {
+    padding: 8px 0;
+    margin-bottom: 5px;
+}
+.promoted-pages-icon span {
+    font-size: 13px;
+    margin-right: 28px;
+    color: #606060;
+}
+.promoted-pages-icon img {
+    height: 80px;
+    margin-right: 17px;
+}
+.promoted-pages-content span {
+    color: #606060;
+    font-size: 16px;
+}
+.promoted-pages-content span a{}
+.promoted-pages-content  a{
+    color: #4e69a2;
+}
+.promoted-pages-content a:hover{
+    text-decoration: underline;
+}
+.promoted-pages-content p {
+    margin-bottom: 0;
+}
+.promoted-pages-content h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.promoted-pages-content .difoled {
+    font-size: 15px;
+    color: #fff;
+    background: #4e69a2;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+/* about-section */
+.about{
+    padding: 0;
+}
+.about-top{}
+.about-top p {
+    margin-bottom: 0;
+    padding: 10px 5px;
+}
+.about-top span {
+    display: inline-block;
+    padding: 5px;
+        padding-top: 5px;
+    padding-top: 11px;
+}
+/* visitor section */
+.visitor-section {
+    border: 1px solid #e9eaed;
+    padding: 11px;
+}
+.visitor-profile{}
+.visitor-profile-img{}
+.visitor-profile-img img{}
+.visitor-profile-content{}
+.visitor-profile-img img {
+    margin-right: 5px;
+}
+.visitor-profile-content a {
+    color: #111;
+}
+.visitor-profile-content span a {
+    color: #606060;
+}
+.visitor-section p {
+    font-size: 15px;
+    margin: 11px 0;
+}
+.like-icons a {
+    color: #111;
+    margin-right: 10px;
+}
+.like-content a {
+    color: #606060;
+    margin-right: 10px;
+}
+.comment-visitor {
+    padding: 5px;
+}
+/* footer mano */
+.footer-mano {
+    background: #f6f7f8;
+}
+.footer-mano a{
+    color: #111;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.promoted-pages-left a {
+    color: #606060;
+    font-size: 11px;
+    padding: 0 5px;
+}
+/* right section */
+/* right section */
+/* right section */
+/* right section */
+
+.focebook-user{
+    background: #fff;
+}
+
+.about-top-right-mano{
+    padding: 6px;
+}
+.about-top-right-mano ul{
+    margin: 0;
+}
+.about-top-right-mano ul li a {
+    color: #111;
+    font-size: 14px;
+}
+
+.about-top-right-mano li {
+    margin-right: 8px;
+}
+.usear-img{
+    position: relative;
+}
+.usear-img img{
+    position: absolute;
+}
+.usear-img textarea {
+    height: 56px;
+    width: 498px;
+    padding: 0 44px;
+    border: none;
+}
+.textarea-bottom {
+    padding: 10px;
+}
+.textarea-bottom a {
+    color: #4e69a2;
+    padding: 5px 10px;
+    background: #fafafa;
+    border: 1px solid #111;
+    font-size: 13px;
+}
+.textarea-bottom a.difoled {
+    background: #4e69a2;
+    color: #fff;
+}
+.textarea-bottom span {
+    background: #4e69a2;
+    display: inline-block;
+    padding: 3px 10px;
+    color: #fff;
+}
+/* user post */
+.user-post-bottom {
+    padding: 7px;
+}
+.like-number{}
+.like-number a {
+    font-size: 13px;
+    margin-left: 10px;
+    color: #7b71a7;
+}
+.boost-button{}
+.boost-button a {
+    margin-right: 6px;
+    font-size: 13px;
+    background: #4e69a2;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 3px;
+}
+.facebook-flag {
+    padding: 9px;
+    color: #4e69a2;
+}
+.like-comment {
+    padding: 5px;
+}
+.like-comment ul {
+    margin: 0;
+}
+.like-comment ul li{}
+.like-comment ul li a {
+    padding: 0 7px;
+    color: #a5a9b0;
+}
+.like-comment ul li a span{}
+.comment-aria{}
+.comment-aria ul{}
+.comment-aria ul li{}
+.comment-aria ul li a {
+    font-size: 14px;
+    padding: 5px;
+}
+.comment-aria ul li a:hover{
+    text-decoration: underline;
+}
+.comment-aria-img img{
+    position: relative;
+    top: -16px;
+}
+.comment-aria-img {
+    padding: 5px;
+}
+.comment-aria-img textarea {
+    width: 92%;
+    height: 40px;
+}
+
+/* right-top section */
+.middle-top {
+    position: fixed;
+    right: 240px;
+    top: -260px;
+}
+.right-top-promote {
+    margin-top: 392px;
+    background: #4e69a2;
+    margin-bottom: 21px;
+    padding: 6px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+.right-top-promote a{
+    columns: #fff;
+}
+.right-top-promote{}
+.right-top-promote a{}
+.right-top h4{}
+.right-top  p{}
+.middle-top-bottom {
+    margin-left: 20px;
+}
+.middle-top-bottom ul{}
+.middle-top-bottom ul li.active{
+    border-left: 3px solid #4e69a2;
+    /* padding-left:20px; */
+}
+.middle-top-bottom ul li{
+    border-left: 3px solid #848080;
+     margin-bottom: 10px;
+     padding-left: 5px;
+}
+.middle-top-bottom ul li a {
+    color: #606060;
+}
+.middle-top-bottom p {
+    font-weight: bold;
+    color: #505050;
+    border-bottom: 1px solid #848080;
+    padding-bottom: 10px;
+}
+/* chat group */
+.left-chat-group {
+    position: fixed;
+    right: 0;
+    top: 47px;
+    border: 1px solid #ddd;
+    padding: 0;
+}
+.chat-group{}
+.chat-group ul{}
+.chat-group ul li {
+    margin-bottom: 10px;
+    position: relative;
+}
+.chat-group ul li::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 10px;
+    width: 10px;
+    background: #45619d;
+    border-radius: 50%;
+}
+.chat-group ul li a {
+    color: #111;
+}
+.chat-group-bottom {
+    position: relative;
+    margin-top: 161px;
+}
+.chat-group-bottom .chat {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    font-size: 14px;
+    color: #b7b0b0;
+}
+.chat-group-bottom input {
+    width: 213px;
+}
+.chat-group-bottom a {
+    position: absolute;
+    right: 24px;
+    font-size: 15px;
+    top: 5px;
+    color: #9b9898;
+}
+.chat-group-bottom .pen {
+    position: absolute;
+    right: 4px;
+    font-size: 12px;
+    top: 6px;
+    color: #bbafaf;
+}
+
+
+
+
+
+
+
+/*  */
+/*  */
+.f-profile{
+    position: relative;
+    cursor: pointer;
+}
+.f-profile::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0,0,0,.5);
+    transition: .2s;
+
+}
+.f-profile:hover.f-profile::after{
+    height: 40%;
+}
